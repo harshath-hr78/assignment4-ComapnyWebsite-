@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: grey;
+  font-size: 1.5rem;
+}
+.nav1{
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to right,darkblue,blue,darkblue);
+  color:white;
+}
+.nav1 h1{
+  padding-left: 30px;
+}
+.sec1{
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+.sec1 img{
+  width: 100%;
+}
+.sec2{
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(to right,orange,gold,orange);
+  text-align: center;
+}
+.sec2 img{
+  width: 250px;
+  height: 150px;
+  padding-top: 30px;
+}
+.sec2 p{
+  padding:30px;
+  text-align: justify;
+
+}
+.home-demo{
+  padding: 20px 0;
+  background-image: linear-gradient(to right,grey,white,grey);
+}
+.home-demo h1{
+    text-align: center;
+    padding: 10px;
+}
+.home-demo .item {
+    height: 200px;
+}
+.home-demo .item img{
+  height: 100%;
+}
+
+.sec3{
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to right,green,#B1E693,green);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sec3 p{
+  padding:30px;
+  text-align: justify;
+}
+
+.sec4{
+  margin: 0px;
+  padding: 10px;
+  background-image: linear-gradient(to right,#FD6F96,#FFEBA1,#FD6F96);
+
+}
+.s4d1{
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  font-family: 'Goldman', cursive;
+  text-align: center;
+}
+.form1{
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  font-family: 'Goldman', cursive;
+  text-align: center;
+}
+.form1 input{
+  border: 2px solid orange;
+  padding:10px;
+  margin:10px;
+  background: darkpink;
+  font-family: 'Goldman', cursive;
+  color: black;
+}
+.form textarea{
+  border: 2px solid orange;
+  font-family: 'Goldman', cursive;
+  color: black;
+}
+
+
+@media (min-width:900px) {
+  .sec1 img{
+    width: 100%;
+    height: 500px;
+    padding: 0 200px;
+    background-image: radial-gradient(blue,cyan,blue);
+  }
+  .sec2{
+    height: auto;
+    padding: 100px ;
+  }
+  .sec2 p{
+    font-size:1.5rem;
+  }
+  .sec3{
+    padding: 100px;
+    height:auto;
+  }
+  .sec3 p{
+    font-size: 1.5rem;
+  }
+}
